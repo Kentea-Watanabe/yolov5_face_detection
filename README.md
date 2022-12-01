@@ -16,5 +16,5 @@ git clone https://github.com/Kentea-Watanabe/yolov5_face_detection.git
 import torch
 from IPython.display import Image, clear_output
 
-!python detect.py --source ../peple.jpg --weights ../weight/face_detection_best.pt --img 416
+!python detect.py --source ../test_img/test.jpg --weights ../weight/face_detection_best.pt --img 416
 ```
