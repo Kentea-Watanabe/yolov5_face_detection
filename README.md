@@ -5,7 +5,7 @@
 
 ## Demo
 ```
-git clone https://github.com/Kentea-Watanabe/yolov5_face_detection.git
+!git clone https://github.com/Kentea-Watanabe/yolov5_face_detection.git
 
 !git clone https://github.com/ultralytics/yolov5 # clone repo
 !pip install -qr yolov5/requirements.txt  # install dependencies (ignore errors)
