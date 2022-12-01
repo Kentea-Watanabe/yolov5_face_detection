@@ -6,6 +6,7 @@
 ## Demo
 ```
 !git clone https://github.com/Kentea-Watanabe/yolov5_face_detection.git
+%cd yolov5_face_detection
 
 !git clone https://github.com/ultralytics/yolov5 # clone repo
 !pip install -qr yolov5/requirements.txt  # install dependencies (ignore errors)
@@ -17,4 +18,8 @@ import torch
 from IPython.display import Image, clear_output
 
 !python detect.py --source ../test_img/test.jpg --weights ../weight/face_detection_best.pt --img 416
+```
+
+```
+Image(filename='runs/detect/exp/test.jpg', width=416)
 ```
